@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  
+}
+
+.section-1 {
+  background: blue;
+  width: 300px;
+  height: 100px;
+  flex:20%;
+  border: black solid 1px;
+  font-family: 'Sky Text', sans-serif;
+  position: relative;
+  
+}
+
+@media only screen and (min-width: 731px) {
+  .section-1 {
+   padding-left: 100px;
+   
+  }
+}
+
+.section-2 {
+  background: red;
+  width: 1000px;
+  height: 100px;
+  flex:80%;
+  border: black solid 1px;
+  position: relative;
+}
+
+#sky-writing{
+  font-size: 50px;
+  color: white;
+  padding-top: 5%;
+  padding-left: 70%;
+} 
+
+#news-writing {
+  font-size: 50px;
+  color: white;
+  padding-top: 1.4%;
+  padding-left: 0.5%;
+}
+
+#nav-icon {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  position: relative;
+  left: 90%;
+  top: -50%;
+  
+}
